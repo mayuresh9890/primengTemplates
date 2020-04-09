@@ -1,4 +1,4 @@
-# Steps To Add PrimeNg Table Or PrimeNg Liabrary Setup : 
+# Steps To Add PrimeNg Table Or PrimeNg Library Setup : 
 
 STEP 1 ::
  
