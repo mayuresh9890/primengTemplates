@@ -1,6 +1,4 @@
 # Steps To Add PrimeNg Table Or PrimeNg Library Setup : 
-
-STEP 1 ::
  
  - install following two libraries
       
