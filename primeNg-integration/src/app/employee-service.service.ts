@@ -9,6 +9,6 @@ export class EmployeeService {
   constructor(private http : HttpClient) { }
 
   getEmpDetails() : Observable<Employee[]>{
-    return this.http.get<Employee[]>('/assets/employeeList.json');
+    return this.http.get<any[]>('/assets/employeeList.json');
   }
 }

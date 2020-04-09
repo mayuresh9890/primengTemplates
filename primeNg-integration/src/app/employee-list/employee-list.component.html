@@ -3,16 +3,42 @@
 <p-table [value]="emp">
     <ng-template pTemplate="header">
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Address</th>
+            <th colspan="3" style="text-align: center;">Knowledge Transfer</th>
+            <th colspan="3" style="text-align: center;">Infrastructure</th>
+            <th colspan="3" style="text-align: center;">Process</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Application Name</th>
+            <th colspan="2">KT Sessions</th>
+            <th colspan="2">Shadow</th>
+            <th colspan="2">Reverse Shadow</th>
+            <th colspan="2">Documentation</th>
+        </tr>
+        <tr>
+            <th>Process</th>
+            <th>Status</th>
+            <th>Progress</th>
+            <th>Status</th>
+            <th>Progress</th>
+            <th>Status</th>
+            <th>Progress</th>
+            <th>Status</th>
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-emp>
         <tr>
-            <td>{{emp.id}}</td>
-            <td>{{emp.name}}</td>
-            <td>{{emp.address}}</td>
+            <td>{{emp.applicationNae}}</td>
+            <td>{{emp.ktSession.progress}}</td>
+            <td>{{emp.ktSession.status}}</td>
+
+            <td>{{emp.shadow.progress}}</td>
+            <td>{{emp.shadow.status}}</td>
+
+            <td>{{emp.reverseShadow.progress}}</td>
+            <td>{{emp.reverseShadow.status}}</td>
+
+            <td>{{emp.document.progress}}</td>
+            <td>{{emp.document.status}}</td>
         </tr>
     </ng-template>
 </p-table>

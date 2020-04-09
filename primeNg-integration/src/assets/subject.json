@@ -1,0 +1,8 @@
+[
+    {"subCode":123, "subName":"Marathi", "subMarks":100},
+    {"subCode":212, "subName":"English", "subMarks":80},
+    {"subCode":333, "subName":"Science", "subMarks":80},
+    {"subCode":420, "subName":"Physics", "subMarks":100},
+    {"subCode":512, "subName":"Social Science", "subMarks":60},
+    {"subCode":678, "subName":"Sanskrit", "subMarks":50}
+]

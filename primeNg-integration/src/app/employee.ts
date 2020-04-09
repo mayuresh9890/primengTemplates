@@ -1,5 +1,5 @@
 export interface Employee {
-    id : number,
-    name : string,
-    address : string
+    applicationName : string,
+    progress : string,
+    status : string
 }

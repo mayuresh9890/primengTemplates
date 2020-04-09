@@ -9,7 +9,7 @@ import { EmployeeService } from '../employee-service.service';
   providers: [EmployeeService]
 })
 export class EmployeeListComponent implements OnInit {
-  emp : Employee[];
+  emp : any[];
   constructor(private empService : EmployeeService ) { }
 
   ngOnInit(): void {
