@@ -1,0 +1,9 @@
+[
+    {"id":1, "name":"Mayuresh", "address":"Pune"},
+    {"id":2, "name":"Aniket", "address":"Savindane"},
+    {"id":3, "name":"Raj", "address":"Kolhapur"},
+    {"id":4, "name":"Nikhil", "address":"Bhosari"},
+    {"id":5, "name":"Vish", "address":"Pabal"},
+    {"id":6, "name":"Ganesh", "address":"Dimbe"},
+    {"id":7, "name":"Nitesh", "address":"Kolhapur"}
+]
