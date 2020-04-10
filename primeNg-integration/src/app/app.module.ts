@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { TableModule } from 'primeng/table';
+import { PaginatorModule } from 'primeng/paginator';
+import {BreadcrumbModule} from 'primeng/breadcrumb';
 import { MenubarModule } from 'primeng/menubar';
 import { HttpClientModule } from '@angular/common/http'
 
@@ -20,6 +22,8 @@ import { SubjectListComponent } from './subject-list/subject-list.component';
     BrowserModule,
     AppRoutingModule,
     TableModule,
+    PaginatorModule,
+    BreadcrumbModule,
     MenubarModule,
     HttpClientModule
   ],
